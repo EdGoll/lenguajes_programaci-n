@@ -1,0 +1,22 @@
+inicio
+	entero x
+	entero y
+	entero z
+	
+	si (x = y) { 
+		x <- 0
+		y <- 1
+	} sino_si (x > y) {
+		x <- 1
+		z <- 1
+	} sino_si (x <> z) {
+		x <- 0
+		y <- z
+	} sino {
+		x <- 1
+		z <- y
+	}
+	fin_si
+	escribir(x y z)
+	escribir("fin del programa")
+fin

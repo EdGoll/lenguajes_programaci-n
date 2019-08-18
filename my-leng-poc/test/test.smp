@@ -1,0 +1,27 @@
+program myprogram{
+
+	 var x;
+	 
+	 x=5;
+	 
+	 println 6;
+	 
+	 println x;
+	 
+	 var y;
+	 
+	 println y;
+	 
+	 y=x;
+	 
+	 println y;
+	 
+	 si (x == y) {
+	 
+		 println y;
+		 
+		 println x;
+		 
+	 }fin_si;
+	 
+}
